@@ -15,7 +15,7 @@ curl -N localhost:9000
 
 In Redis:
 ```
-publish 'events' "{count: 1}"
+PUBLISH 'events' "{count: 1}"
 ```
 
 In curl you should see:

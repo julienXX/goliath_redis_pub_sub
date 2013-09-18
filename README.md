@@ -18,7 +18,7 @@ In Redis:
 PUBLISH 'events' "{count: 1}"
 ```
 
-In curl you should see:
+In the curl terminal you should see:
 ```
 {"id":1379520280,"data":"{count: 1}"}
 ```
